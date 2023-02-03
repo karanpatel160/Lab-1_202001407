@@ -6,21 +6,15 @@
 ### Q.1. Identify FRs and NFRs:  
 **Functional requirements -**  
 * **New User Registration:** Whoever wants to use the library's services and is a part of the institute must first register with the system for library resources.After successfully registering, the member would receive a user ID and password. For using LIS, one must use the following credentials.
-* 
 * **User login:** User has to login using the ID and password he created during registration. If credentials entered are correct, the 'Home' page is shown. Now the user can use features of LIS like issue a book, return a book, reissue a book and many others.If the credentials entered by the user are incorrect then the login failure screen will be shown. If an incorrect password is entered three times consecutively then a security question which was chosen by the user while registering, with an input box to answer it will be shown. Account will be blocked on failing to answer security question. Admin can reactivate an account on request.
-* 
 * **Issue book:** A LIS member can issue a book if:  
 i) It is available in the library.
 ii) No one else has issued that book.  
 iii) Member has not issued maximum number of books he can issue at a time. 
 After a successful issue of a book,user's account is updated to reflect the same.
-
 * **Return book:** A book is issued for a finite time. That is, the book should be returned within this time. After returning the book successfully it is reflected in the user's account.
-* 
 * **Reissue book:** A user can reissue a book if one needs to use it for more than the stipulated amount of time. A book can not be reissued more than 2 times.
-* 
 * **Search book:** Users can search only if a book is present in the library using this facility. Book can be searched using its title, author's name, publisher's name or genre.
-* 
 **Non-functional requirements -** 
 * **Performance Requirements:**  
 i) System should be available 24x7.  
